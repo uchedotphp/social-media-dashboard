@@ -1,16 +1,20 @@
 <template>
-  <div class="bg-red-500">
-    <img alt="Vue logo" src="./assets/logo.png">
+  <div class="h-screen bg-veryDarkBlueTopBGPattern px-8 pt-10 md:px-0">
+    <Dashboard />
   </div>
 </template>
 
 <script>
+import Dashboard from '@/components/Dashboard';
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Dashboard,
+  },
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-/* - Font size (Overview Card Headings): 14px */
+/* - Font size (Overview Card Headings): 14px  */
 </style>
