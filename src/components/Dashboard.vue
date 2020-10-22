@@ -1,21 +1,18 @@
 <template>
   <div class="container mx-auto">
     <Header />
-    <div class="my-10">
-      <CardFollowers />
-      <CardFollowers />
-    </div>
+    <TopCard />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
-import CardFollowers from '@/components/CardFollowers';
+import TopCard from '@/components/TopCard';
 export default {
   name: "DashboardComponent",
   components: {
     Header,
-    CardFollowers
+    TopCard
   },
 };
 </script>
