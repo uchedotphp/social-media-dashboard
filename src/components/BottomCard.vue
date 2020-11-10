@@ -7,7 +7,7 @@
       <div
         v-for="card in dataOne"
         :key="card.title"
-        class="cards rounded bg-darkDesaturatedBlueCardBG p-10 mb-6 md:w-3/12 md:mr-8"
+        class="cards cursor-pointer hover:bg-darkGrayishBlueText rounded bg-darkDesaturatedBlueCardBG px-8 py-10 mb-6 md:w-3/12 md:mr-8"
       >
         <div class="flex justify-between pb-6">
           <span class="text-desaturatedBlueText capitalize font-semibold text-lg">{{ card.title }}</span>
@@ -38,7 +38,7 @@
       <div
         v-for="card in dataTwo"
         :key="card.title"
-        class="cards rounded bg-darkDesaturatedBlueCardBG p-10 mb-6 md:w-3/12 md:mr-8"
+        class="cards cursor-pointer hover:bg-darkGrayishBlueText rounded bg-darkDesaturatedBlueCardBG p-10 mb-6 md:w-3/12 md:mr-8"
       >
         <div class="flex justify-between pb-6">
           <span class="text-desaturatedBlueText capitalize font-semibold text-lg">{{ card.title }}</span>
