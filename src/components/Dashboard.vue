@@ -2,20 +2,23 @@
   <div class="container mx-auto">
     <Header />
     <TopCard />
+    <BottomCard />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
 import TopCard from '@/components/TopCard';
+import BottomCard from '@/components/BottomCard';
 export default {
   name: "DashboardComponent",
   components: {
     Header,
-    TopCard
+    TopCard,
+    BottomCard
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
 </style>

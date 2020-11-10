@@ -4,7 +4,7 @@
       v-for="handle in data"
       :key="handle.followers"
       style=""
-      class="cards md:w-3/12 md:mr-10 bg-darkDesaturatedBlueCardBG my-6 py-8 rounded-md border-t-4 text-desaturatedBlueText grid justify-items-center content-center justify-center"
+      class="cards md:w-3/12 md:mr-8 bg-darkDesaturatedBlueCardBG my-6 py-8 rounded-md border-t-4 text-desaturatedBlueText grid justify-items-center content-center justify-center"
       :class="[handle.platform]"
     >
       <div class="">

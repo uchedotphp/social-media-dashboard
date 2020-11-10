@@ -17,4 +17,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 /* - Font size (Overview Card Headings): 14px  */
+body {
+    background-color: hsl(232, 19%, 15%);
+}
 </style>
