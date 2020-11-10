@@ -9,7 +9,7 @@
       <div class="self-start md:self-center">total followers: 23,004</div>
       <hr class="bg-darkGrayishBlueText my-6" />
       <div class="flex justify-between">
-        <span class="self-center">dark mode</span>
+        <span class="self-center text-whiteText">dark mode</span>
         <span class="ml-6 self-center">
           <button
             @click="dark = !dark"
